@@ -8,10 +8,10 @@
 function loadTheScripts(){
     global $pagename;
 
-    $style_uri           = get_template_directory_uri().'/styles/templates/css/'.$pagename.'.min.css';
-    $def_style_uri       = get_template_directory_uri().'/styles/templates/css/default.min.css';
+    $style_uri           = get_template_directory_uri().'/assets/css/templates/'.$pagename.'.min.css';
+    $def_style_uri       = get_template_directory_uri().'/assets/css/templates/default.min.css';
 
-    $style_path          = dirname(__FILE__, 2).'/styles/templates/css/'.$pagename.'.min.css';
+    $style_path          = dirname(__FILE__, 2).'/assets/css/templates/'.$pagename.'.min.css';
 
     // load style if exists, if not load the default
     if(file_exists($style_path)){
