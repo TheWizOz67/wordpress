@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ededcd7e-8ec1-4650-b9af-2fa6b0dc1d94" name="compoco-retail">
+        <fileTransfer rootFolder="/home/customer/www/compoco.com/public_html/" accessType="SFTP" host="35.208.186.154" port="18765" sshConfigId="1e27524d-f5d1-40b2-a781-dd99010d69a2" sshConfig="u221-gfyn3gcimnlv@35.208.186.154:18765 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
